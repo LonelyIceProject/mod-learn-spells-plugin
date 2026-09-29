@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" width="128" alt="logo"></p>
+
 # mod-learn-spells plugin
 
 Builds [azerothcore/mod-learn-spells](https://github.com/azerothcore/mod-learn-spells) as a plugin for
