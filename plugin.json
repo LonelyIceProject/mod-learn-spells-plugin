@@ -1,7 +1,7 @@
 {
   "format": 1,
   "id": "mod-learn-spells",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": { "en": "Learn spells on level up", "ru": "Заклинания при повышении уровня" },
   "description": {
     "en": "Teaches the new class spells automatically on level up.",
@@ -10,6 +10,7 @@
   "authors": [ "AzerothCore" ],
   "license": "AGPL-3.0",
   "homepage": "https://github.com/azerothcore/mod-learn-spells",
+  "locales": [ "*" ],
   "source": {
     "repo": "https://github.com/azerothcore/mod-learn-spells.git",
     "commit": "016b92d520f343d074ffd5d46016a94f4a3a6ebd"
