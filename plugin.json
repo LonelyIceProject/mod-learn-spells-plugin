@@ -1,7 +1,7 @@
 {
   "format": 1,
   "id": "mod-learn-spells",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": { "en": "Learn spells on level up", "ru": "Заклинания при повышении уровня" },
   "description": {
     "en": "Teaches the new class spells automatically on level up.",
@@ -18,5 +18,6 @@
   "core": { "abi": "lonelyice-ac-2" },
   "platforms": [ "windows-x64" ],
   "server": { "library": "mod_learn_spells" },
-  "config": "conf/mod_learnspells.conf.dist"
+  "config": "conf/mod_learnspells.conf.dist",
+  "settings": "settings.json"
 }

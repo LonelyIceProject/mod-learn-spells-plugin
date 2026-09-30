@@ -1,0 +1,14 @@
+{
+  "group": { "en": "Learn spells", "ru": "Изучение заклинаний" },
+  "hint": { "en": "Class spells are learned on level-up, without a trainer", "ru": "Классовые заклинания изучаются при получении уровня, без наставника" },
+  "fields": [
+    { "key": "LearnSpells.Enable", "type": "bool", "default": 1, "apply": "reload",
+      "label": { "en": "Learn spells on level-up", "ru": "Изучать заклинания при получении уровня" } },
+    { "key": "LearnSpells.OnFirstLogin", "type": "bool", "default": 0, "apply": "reload",
+      "label": { "en": "Also on a new character's first login", "ru": "Также при первом входе нового персонажа" },
+      "hint": { "en": "For characters that start above level 1", "ru": "Для персонажей, которые начинают выше 1-го уровня" } },
+    { "key": "LearnSpells.MaxLevel", "type": "int", "min": 0, "max": 255, "default": 80, "apply": "reload",
+      "label": { "en": "Up to level", "ru": "До уровня" },
+      "hint": { "en": "No spells are learned automatically above this level", "ru": "Выше этого уровня заклинания сами не изучаются" } }
+  ]
+}
